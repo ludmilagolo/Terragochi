@@ -56,14 +56,50 @@
 <body>
     <div data-role="page" class="app">
 
-        <div data-role="header"></div>
+        <div data-role="header" class="headQ">
+            <header>
+                <img class="one" src="img/questio1.png" alt="">
+                <h3 class="tituloquestion">Lorem ipsum dolor sit amet</h3>
+            </header>
+            <div class="ilustra">
+                <img src="img/ilustra1.png" alt="">
+            </div>
+        </div>
 
-        <div data-role="nav-bar"></div>
+        <div class="question">
+            <div class="ilustra"><img src="" alt=""></div> 
+            <div class="perguntas">
+
+        <form id="quz" name ="quiz" method = "post" action="">
+                <label class="answer1">
+                    <input type="radio" name="question1" class="resposta1-1"><img class="imgResposta1-1" onclick="" src="img/resposta1.png" alt="">
+                </label>
+                <label class="answer2">
+                        <input type="radio" name="question1"><img  class="imgResposta1-2" onclick="" src="img/resposta2.png" alt="">
+                </label>             
+                <label class="answer3">
+                        <input type="radio" name="question1">  <img class="imgResposta1-3" onclick="" src="img/resposta3.png" alt="">
+                </label>
+                <label class="answer4">
+                        <input type="radio" name="question1"> <img class="imgResposta1-4" onclick="" src="img/resposta4.png" alt="">
+                </label>
+
+        </form>
+            
+            </div>
+        </div>
+
+        <div class="barra_de_progresso">
+            <img class="barra" src="img/barra1.png" alt="">
+            <a href="img/barra1.png">
+            <img class="seta" src="img/next.png" alt=""></a>
+        </div>
     </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/my.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>

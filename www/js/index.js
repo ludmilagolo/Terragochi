@@ -17,9 +17,7 @@
  * under the License.
  */
 
-$(document).ready(function(){
-    window.location.replace("../www/quiz_presentation.html");
-     });
+
  
  var app = {
     // Application Constructor
@@ -51,4 +49,14 @@ $(document).ready(function(){
 
         console.log('Received Event: ' + id);
     }
+
+
+
+
+
+
+
+
+
+    
 };

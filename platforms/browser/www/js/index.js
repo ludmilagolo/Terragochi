@@ -17,16 +17,7 @@
  * under the License.
  */
 
-$(document).ready(function(){
-    $(document).ready(function() {
-        //Só é ativado após a resposta.
-        $( document ).ajaxComplete(function( event, xhr, settings ) {
-            if(settings.url == '/url_do_ajax'){
-                
-            }
-        );
-    });
-     });
+
  
  var app = {
     // Application Constructor
@@ -58,4 +49,14 @@ $(document).ready(function(){
 
         console.log('Received Event: ' + id);
     }
+
+
+
+
+
+
+
+
+
+    
 };

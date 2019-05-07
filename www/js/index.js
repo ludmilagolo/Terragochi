@@ -16,7 +16,12 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-var app = {
+
+$(document).ready(function(){
+    window.location.replace("../www/quiz_presentation.html");
+     });
+ 
+ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
